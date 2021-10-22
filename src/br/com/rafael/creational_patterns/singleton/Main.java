@@ -1,7 +1,7 @@
-package br.com.rafael.singleton;
+package br.com.rafael.creational_patterns.singleton;
 
-import br.com.rafael.singleton.first_example.ConfigManager1;
-import br.com.rafael.singleton.second_example.ConfigManager2;
+import br.com.rafael.creational_patterns.singleton.ex01.ConfigManager1;
+import br.com.rafael.creational_patterns.singleton.ex02.ConfigManager2;
 
 public class Main {
     public static void main(String[] args) {

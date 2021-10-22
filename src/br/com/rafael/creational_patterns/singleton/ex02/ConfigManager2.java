@@ -1,4 +1,4 @@
-package br.com.rafael.singleton.second_example;
+package br.com.rafael.creational_patterns.singleton.ex02;
 
 public class ConfigManager2 {
     private static ConfigManager2 instance;
