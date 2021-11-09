@@ -10,7 +10,6 @@ public class WindowsButton implements Button {
     private final JFrame frame = new JFrame();
     private JButton button;
 
-    @Override
     public void render() {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         JLabel label = new JLabel("Hello World!");
@@ -28,7 +27,6 @@ public class WindowsButton implements Button {
         onClick();
     }
 
-    @Override
     public void onClick() {
         button = new JButton("Exit");
         button.addActionListener(e -> {
