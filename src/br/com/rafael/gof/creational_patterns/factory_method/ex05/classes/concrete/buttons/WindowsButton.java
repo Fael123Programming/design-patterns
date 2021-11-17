@@ -1,7 +1,6 @@
 package br.com.rafael.gof.creational_patterns.factory_method.ex05.classes.concrete.buttons;
 
 import br.com.rafael.gof.creational_patterns.factory_method.ex05.interfaces.Button;
-
 import javax.swing.*;
 import java.awt.*;
 
