@@ -1,9 +1,7 @@
 package br.com.rafael.gof.creational_patterns.factory_method.ex02;
 
-import br.com.rafael.gof.creational_patterns.factory_method.ex02.classes.Computer;
-import br.com.rafael.gof.creational_patterns.factory_method.ex02.classes.DeviceFactory;
-import br.com.rafael.gof.creational_patterns.factory_method.ex02.interfaces.Device;
-import br.com.rafael.gof.creational_patterns.factory_method.ex02.interfaces.ScreenDevice;
+import br.com.rafael.gof.creational_patterns.factory_method.ex02.classes.*;
+import br.com.rafael.gof.creational_patterns.factory_method.ex02.interfaces.*;
 
 public class Test {
     public static void main(String[] args) {

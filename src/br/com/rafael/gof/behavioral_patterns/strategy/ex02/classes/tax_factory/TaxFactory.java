@@ -5,7 +5,7 @@ import br.com.rafael.gof.behavioral_patterns.strategy.ex02.interfaces.ITax;
 
 import java.util.Locale;
 
-public class TaxFactory { //Factory method with singleton!
+public class TaxFactory { //PersonFactory method with singleton!
     private static FederalTax fTax;
     private static StateTax sTax;
     private static CityTax cTax;
