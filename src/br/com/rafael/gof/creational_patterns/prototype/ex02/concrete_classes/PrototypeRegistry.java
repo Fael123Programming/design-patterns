@@ -1,7 +1,9 @@
 package br.com.rafael.gof.creational_patterns.prototype.ex02.concrete_classes;
 
 import br.com.rafael.gof.creational_patterns.prototype.ex02.interface_.Prototype;
-import java.util.*;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class PrototypeRegistry {
     private final Map<String, Prototype> items;
@@ -20,7 +22,7 @@ public class PrototypeRegistry {
 
     public Prototype getByColor(String color) {
         for (Prototype prototype : items.values())
-            if(prototype.getColor().equals(color))
+            if (prototype.getColor().equals(color))
                 return prototype.cloneThis(); //Clone this object instead of returning it.
         return null;
     }
