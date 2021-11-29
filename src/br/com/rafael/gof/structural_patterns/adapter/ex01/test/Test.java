@@ -12,7 +12,7 @@ public class Test {
         businessLogic(new Adapter(new Service())); //Using our Adapter we can communicate with our service!!!
         businessLogic((data) -> new Service().serviceMethod(data)); //Lambda expression!
 //        Creating a class, implementing the interface ClientInterface and its method and calling it.
-//        This can be done only with functional interfaces (one-method interface) my fellow!
+//        This can be done only with functional interfaces (one-method interface).
 //        Without our adapter, things get crazy!
     }
 

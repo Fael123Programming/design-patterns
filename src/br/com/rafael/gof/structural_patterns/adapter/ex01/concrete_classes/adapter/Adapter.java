@@ -3,7 +3,7 @@ package br.com.rafael.gof.structural_patterns.adapter.ex01.concrete_classes.adap
 import br.com.rafael.gof.structural_patterns.adapter.ex01.concrete_classes.service.Service;
 import br.com.rafael.gof.structural_patterns.adapter.ex01.interfaces.ClientInterface;
 
-//This is the important adapter.
+//This is the adapter.
 //It must wrap the target object (The object the client code wants to talk with).
 
 public class Adapter implements ClientInterface {
