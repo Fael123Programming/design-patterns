@@ -25,6 +25,7 @@ public class CarBuilder implements Builder {
     @Override
     public void installWheels() {
         CarWheel[] wheels = {new CarWheel("Super Car Wheels", 16),
+                new CarWheel("Super Car Wheels", 16), new CarWheel("Super Car Wheels", 16),
                 new CarWheel("Super Car Wheels", 16)};
         this.car.setWheels(wheels);
     }
@@ -32,6 +33,7 @@ public class CarBuilder implements Builder {
     @Override
     public void installTires() {
         CarTire[] tires = {new CarTire("Super Car Tires", 16),
+                new CarTire("Super Car Tires", 16), new CarTire("Super Car Tires", 16),
                 new CarTire("Super Car Tires", 16)};
         this.car.setTires(tires);
     }
