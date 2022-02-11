@@ -1,0 +1,1 @@
+This is an example of implementation of the decorator design pattern(compressed)(encrypted)
