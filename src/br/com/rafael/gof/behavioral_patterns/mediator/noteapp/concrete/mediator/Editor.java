@@ -1,15 +1,15 @@
-package br.com.rafael.gof.behavioral_patterns.mediator.ex01.concrete.mediator;
+package br.com.rafael.gof.behavioral_patterns.mediator.noteapp.concrete.mediator;
 
-import br.com.rafael.gof.behavioral_patterns.mediator.ex01.abstract_.Component;
-import br.com.rafael.gof.behavioral_patterns.mediator.ex01.abstract_.Mediator;
-import br.com.rafael.gof.behavioral_patterns.mediator.ex01.concrete.components.AddButton;
-import br.com.rafael.gof.behavioral_patterns.mediator.ex01.concrete.components.DeleteButton;
-import br.com.rafael.gof.behavioral_patterns.mediator.ex01.concrete.components.SaveButton;
-import br.com.rafael.gof.behavioral_patterns.mediator.ex01.concrete.components.Filter;
-import br.com.rafael.gof.behavioral_patterns.mediator.ex01.concrete.components.NoteList;
-import br.com.rafael.gof.behavioral_patterns.mediator.ex01.concrete.note.Note;
-import br.com.rafael.gof.behavioral_patterns.mediator.ex01.concrete.components.TextBox;
-import br.com.rafael.gof.behavioral_patterns.mediator.ex01.concrete.components.Title;
+import br.com.rafael.gof.behavioral_patterns.mediator.noteapp.abstract_.Component;
+import br.com.rafael.gof.behavioral_patterns.mediator.noteapp.abstract_.Mediator;
+import br.com.rafael.gof.behavioral_patterns.mediator.noteapp.concrete.components.AddButton;
+import br.com.rafael.gof.behavioral_patterns.mediator.noteapp.concrete.components.DeleteButton;
+import br.com.rafael.gof.behavioral_patterns.mediator.noteapp.concrete.components.SaveButton;
+import br.com.rafael.gof.behavioral_patterns.mediator.noteapp.concrete.components.Filter;
+import br.com.rafael.gof.behavioral_patterns.mediator.noteapp.concrete.components.NoteList;
+import br.com.rafael.gof.behavioral_patterns.mediator.noteapp.concrete.note.Note;
+import br.com.rafael.gof.behavioral_patterns.mediator.noteapp.concrete.components.TextBox;
+import br.com.rafael.gof.behavioral_patterns.mediator.noteapp.concrete.components.Title;
 
 import javax.swing.*;
 import javax.swing.border.LineBorder;

@@ -1,4 +1,4 @@
-package br.com.rafael.gof.behavioral_patterns.mediator.ex01.abstract_;
+package br.com.rafael.gof.behavioral_patterns.mediator.noteapp.abstract_;
 
 public interface Component {
     int ADD_BUTTON = 1, DELETE_BUTTON = 2, SAVE_BUTTON = 3, FILTER = 4, NOTE_LIST = 5, TEXT_BOX = 6, TITLE = 7;

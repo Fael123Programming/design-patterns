@@ -1,4 +1,4 @@
-package br.com.rafael.gof.behavioral_patterns.mediator.ex01.concrete.note;
+package br.com.rafael.gof.behavioral_patterns.mediator.noteapp.concrete.note;
 
 public class Note {
     private String name, text;

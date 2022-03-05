@@ -1,6 +1,6 @@
-package br.com.rafael.gof.behavioral_patterns.mediator.ex01.abstract_;
+package br.com.rafael.gof.behavioral_patterns.mediator.noteapp.abstract_;
 
-import br.com.rafael.gof.behavioral_patterns.mediator.ex01.concrete.note.Note;
+import br.com.rafael.gof.behavioral_patterns.mediator.noteapp.concrete.note.Note;
 
 import javax.swing.*;
 
