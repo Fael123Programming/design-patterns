@@ -31,9 +31,10 @@ public class Main {
         };
         if (network == null)
             return;
+        String message = "Hey, this is Rafael! Throw a bomb on Putin's headquarters to stop the war...";
         SocialSpammer spammer = new SocialSpammer(network);
-        spammer.sendSpamToCoworkers("rafael_fonseca@amazon.com", "Hey, this is Rafael! Throw a " +
-                "bomb on Putin's headquarters to stop the war...");
+        spammer.sendSpamToCoworkers("rafael_fonseca@amazon.com", message);
+        spammer.sendSpamToFriends("rafael_fonseca@amazon.com", message);
     }
 
     public static List<Profile> createTestProfiles() {
