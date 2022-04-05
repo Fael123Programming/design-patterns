@@ -1,5 +1,0 @@
-Log file created at (2022-03-21T14:18:31.238724687)
-Someone has opened the file: my_file.txt (2022-03-21T14:19:12.414027689)
-Someone has opened the file: my_file.txt (2022-03-21T14:20:52.243439771)
-Someone has opened the file: my_file.txt (2022-03-21T16:46:42.032201296)
-Someone has opened the file: my_file.txt (2022-03-21T16:54:28.138780390)
